@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/Yunoxa/Pictures/Wallpapers/e32b041cf423642b7f172c51fadf6e476fb07c57f4bb0a2e8fc7274f33118d8b.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#140907",
+        "foreground": "#f4ece5",
+        "cursor": "#f4ece5"
+    },
+    "colors": {
+        "color0": "#140907",
+        "color1": "#F7BFCE",
+        "color2": "#B0D7D6",
+        "color3": "#B3DDDC",
+        "color4": "#B3DDDC",
+        "color5": "#B9DFDE",
+        "color6": "#E0D5D3",
+        "color7": "#f4ece5",
+        "color8": "#aaa5a0",
+        "color9": "#F7BFCE",
+        "color10": "#B0D7D6",
+        "color11": "#B3DDDC",
+        "color12": "#B3DDDC",
+        "color13": "#B9DFDE",
+        "color14": "#E0D5D3",
+        "color15": "#f4ece5"
+    }
+}

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/Yunoxa/Pictures/Wallpapers/e32b041cf423642b7f172c51fadf6e476fb07c57f4bb0a2e8fc7274f33118d8b.png"
+let background = "#140907"
+let foreground = "#f4ece5"
+let cursor     = "#f4ece5"
+
+" Colors
+let color0  = "#140907"
+let color1  = "#F7BFCE"
+let color2  = "#B0D7D6"
+let color3  = "#B3DDDC"
+let color4  = "#B3DDDC"
+let color5  = "#B9DFDE"
+let color6  = "#E0D5D3"
+let color7  = "#f4ece5"
+let color8  = "#aaa5a0"
+let color9  = "#F7BFCE"
+let color10 = "#B0D7D6"
+let color11 = "#B3DDDC"
+let color12 = "#B3DDDC"
+let color13 = "#B9DFDE"
+let color14 = "#E0D5D3"
+let color15 = "#f4ece5"

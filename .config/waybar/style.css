@@ -1,0 +1,101 @@
+@import url("/home/Yunoxa/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: "ttf-font-awesome", "Mononoki Nerd Font", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    border-radius: 20px;
+    color: @color2;
+}
+
+.modules-right {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.modules-left {
+    border-radius: 20px;
+}
+
+.modules-center {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tooltip {
+    background: @color0;
+    border: 1px solid @color8;
+}
+
+tooltip label {
+  color: @color7;
+}
+
+#workspaces button {
+    padding: 1px 10px 0 10px;
+    margin: 3px;
+    background: @background;
+    border-radius: 20px;
+    color: @color2;
+}
+
+#workspaces button.focused {
+    background: @color6;
+    border-bottom: 3px solid @color7;
+}
+
+#mode, #clock {
+    padding: 1px 14px 0 14px;
+    margin: 3px;
+    background: @background;
+    border-radius: 20px;
+}
+
+#tray, #memory, #cpu, #pulseaudio {
+    padding: 1px 18px 0 14px;
+    margin: 3px;
+    background: @background;
+    border-radius: 20px;
+}
+
+#mode {
+    padding: 4px 4px 2px 4px;
+    margin: 2px;
+    background: @color10;
+    color: @background;
+    border-radius: 20px;
+
+}
+
+#battery {
+    background-color: #ffffff;
+    color: black;
+}
+
+#battery.charging {
+    color: white;
+    background-color: #26A65B;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#battery.warning:not(.charging) {
+    background: #f53c3c;
+    color: white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
